@@ -4,6 +4,11 @@ on:
   push:
     branches: ["**"]
 
+permissions:
+  contents: read
+  issues: write
+
+
 jobs:
   test:                    # job id MUST be 'test' to appear as "ci / test"
     runs-on: ubuntu-latest
