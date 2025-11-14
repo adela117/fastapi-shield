@@ -35,7 +35,9 @@ async def access_log(request: Request, call_next):
     start = time.time()
     response = await call_next(request)
     ms = int((time.time() - start) * 1000)
-    log.info("%s %s %s %dms", request.method, request.url.path, response.status_code, ms)
+    log.info(
+        "%s %s %s %dms", request.method, request.url.path, response.status_code, ms
+    )
     return response
 
 
