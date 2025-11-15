@@ -18,4 +18,4 @@ A tiny FastAPI service with CI-enforced quality and security:
 **Repo:** https://github.com/adela117/secure-api-fastapi-ci  
 **Docs:** /docs when running locally or in demo
 
-> Contact: [LinkedIn](linkedin.com/in/albert-de-la-cruz-282-fiu/?skipRedirect=true) · [Email](delacruz.albert@proton.me)
+> Contact: [LinkedIn](linkedin.com/in/albert-de-la-cruz-282-fiu/?skipRedirect=true) · [Email](mailto:delacruz.albert@proton.me)
