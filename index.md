@@ -21,7 +21,7 @@ runtime hardening (API key, rate limit, security headers).
   </a>
 </p>
 
-**Repo:** https://github.com/adela117/secure-api-fastapi-ci
+**Repo:** https://github.com/adela117/fastapi-secure-starter
 
 ## What’s inside
 - ✅ Pytest on every push/PR
