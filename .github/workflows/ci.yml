@@ -115,7 +115,7 @@ jobs:
           tags: local/secure-api:ci
           load: true
       - name: Trivy scan (fail on HIGH/CRITICAL)
-        uses: aquasecurity/trivy-action@0.24.0
+        uses: aquasecurity/trivy-action@0.33.1
         with:
           image-ref: local/secure-api:ci
           format: 'table'
